@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearningAspNetMiddleware.Te
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyFunkyMiddleware", "MyFunkyMiddleware\MyFunkyMiddleware.csproj", "{7B5E3D74-009E-4E39-B53A-1BA416B9BE5F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleJwt", "SimpleJwt\SimpleJwt.csproj", "{94573526-33C3-4999-A11C-CF62A2FA1D78}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{7B5E3D74-009E-4E39-B53A-1BA416B9BE5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7B5E3D74-009E-4E39-B53A-1BA416B9BE5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7B5E3D74-009E-4E39-B53A-1BA416B9BE5F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94573526-33C3-4999-A11C-CF62A2FA1D78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94573526-33C3-4999-A11C-CF62A2FA1D78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94573526-33C3-4999-A11C-CF62A2FA1D78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94573526-33C3-4999-A11C-CF62A2FA1D78}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

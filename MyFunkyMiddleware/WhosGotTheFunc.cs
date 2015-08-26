@@ -17,9 +17,9 @@ namespace MyFunkyMiddleware
 
         public override async Task Invoke(IOwinContext ctx)
         {
-            await ctx.Response.WriteAsync(BEGIN_FUNC);
+            //await ctx.Response.WriteAsync(BEGIN_FUNC);
             await _next.Invoke(ctx);
-            await ctx.Response.WriteAsync(END_FUNC);
+            //await ctx.Response.WriteAsync(END_FUNC);
         }
     }
     
